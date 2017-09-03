@@ -1,0 +1,1528 @@
+/*  CSS for fast fixes. Use with caution!  */
+
+html {
+    min-width: 320px;
+}
+
+.setup_message {
+    margin: 10px 0;
+    font-weight: bold;
+}
+
+.btn_line.text-center.recharge--button.recharge--button--padding {
+    padding-top: 30px;
+}
+
+.title.h4.margin-top--title2 {
+    margin-top: 20px;
+    font-size: 21px;
+}
+
+.title.h4.margin-top--title1 {
+    margin-top: 10px;
+    font-size: 21px;
+}
+
+.title.h4.no-margin--top {
+    font-size: 21px;
+}
+
+.unlimited-renewal {
+    padding-bottom: 15px;
+}
+
+@media (max-width: 580px), (min-width: 980px) and (max-width: 1200px) {
+
+    .lead-2 {
+        display: block;
+        margin-left: -15px;
+        margin-top: 10px;
+    }
+}
+
+.island--title-popover-icon-link {
+    width: 21px;
+    height: 24px;
+    vertical-align: baseline;
+}
+
+.island--title-popover-icon-link .i {
+    position: relative;
+    top: -2px;
+    left: 0;
+    width: 21px;
+    height: 21px;
+    color: #006CD8;
+}
+
+/*sofort-block in payment sections
+    todo: move to br.css
+*/
+.sofort--block, .openbucks--block {
+}
+
+    .sofort--block .card-radio,
+    .openbucks--block .card-radio {
+        float: left;
+        padding-top: 16px;
+    }
+
+.payment-type .payment-type--card .sofort--block .card,
+.payment-type .payment-type--card .openbucks--block .card {
+    margin-left: 55px;
+}
+
+@media screen and (max-width: 460px) {
+
+    .payment-type .payment-type--card .sofort--block .card,
+    .payment-type .payment-type--card .openbucks--block .card {
+        margin-left: 40px;
+    }
+}
+
+@media screen and (max-width: 600px) {
+
+    .payment-type .payment-type--card .sofort--block .card img,
+    .payment-type .payment-type--card .openbucks--block .card img {
+        float: none;
+    }
+}
+
+
+/*Special destination styles*/
+.b_LoginLogin .aside {
+    padding-top: 100px;
+}
+
+.banner-account {
+    text-align: center;
+}
+
+.destination-plan .social-promo, .destination-plan .banner-account {
+    display: none;
+}
+
+.destination-plan .special-plan {
+    display: block;
+}
+
+.special-plan {
+    display: none;
+    background: #fff;
+    border-radius: 10px;
+    padding: 25px;
+}
+
+    .special-plan header {
+        display: block;
+        padding-bottom: 15px;
+    }
+
+        .special-plan header strong {
+            display: block;
+            color: #000;
+            font-size: 24px;
+            line-height: 28px;
+            font-weight: bold;
+        }
+
+        .special-plan header h2 {
+            padding: 0;
+            margin: 0;
+            color: #c00;
+            font-size: 24px;
+            line-height: 28px;
+            font-weight: bold;
+        }
+
+            .special-plan header h2 span {
+                color: #000;
+            }
+
+.special-plan--text {
+    padding-bottom: 15px;
+    color: #000;
+    font-size: 16px;
+    line-height: 24px;
+}
+
+    .special-plan--text strong {
+        color: #c00;
+    }
+
+.special-plan--note {
+    padding-left: 40px;
+    color: gray;
+    font-size: 12px;
+    line-height: 16px;
+}
+
+.special-plan-rates-link {
+    padding: 20px 0;
+    text-align: center;
+    font-size: 18px;
+    line-height: 28px;
+}
+
+    .special-plan-rates-link a {
+        display: block;
+    }
+
+@media (max-width:480px) {
+    .special-plan {
+        padding: 15px;
+    }
+
+        .special-plan header strong, .special-plan header h2 {
+            font-size: 20px;
+            line-height: 24px;
+        }
+
+    .special-plan--text {
+        padding-bottom: 10px;
+        font-size: 14px;
+        line-height: 21px;
+    }
+
+    .special-plan--note {
+        font-size: 11px;
+        padding-left: 0;
+    }
+}
+
+/*App Page start*/
+.b_HomeApps.en-US,
+.b_HomeApps.es-US {
+    background: #9c999a;
+}
+.app-footer {
+    background: rgba(0,0,0,0.6);
+    text-align: center;
+    padding: 55px 0 50px;
+}
+
+.app-footer h2{
+    margin-top: 1em;
+}
+
+.app--get-it-now {
+    background: rgba(255,255,255,0.2);
+    border-radius: 8px;
+    display: inline-block;
+    margin-top: 30px;
+}
+
+.header-promo--app {
+    position: absolute;
+    left: 0;
+    bottom: 0;
+    width: 100%;
+    padding: 0 20px 200px 20px;
+    background: url(../img/download-app/v2/creatures.png) 50% 100% no-repeat;
+}
+
+.header-promo--app .app-headerblock--wrapper {
+    background: rgba(0,0,0,0.6);
+    border-top-left-radius: 8px;
+    border-bottom-left-radius: 8px;      
+}
+.header-promo--app .app-headerblock--primary {
+    padding: 35px 30px;
+    width: 480px;
+    float: left;
+}
+
+.app-headerblock--primary h1 {
+    margin-top: 20px;
+    font-size: 32px;
+}
+.header-promo--app .app-headerblock--secondary{
+    padding:0;
+    float: left;
+    width: 650px;
+    height:369px;
+}
+
+.plate-with-text .plate {
+    display: inline-block;
+    vertical-align: bottom;
+}
+.plate-with-text .plate-with-text--text {
+    display: inline-block;
+    padding-left: 10px;
+}
+
+.b_HomeApps .new-app-page .mediablock {
+    position: relative;
+}
+.b_HomeApps .new-app-page .mediablock-default .mediablock--primary.mediablock--primary{
+    margin: 0;
+    padding: 0;
+    vertical-align: bottom;    
+}
+
+.b_HomeApps .new-app-page .mediablock-default .mediablock--secondary{
+    padding-top:60px;
+    padding-bottom:60px;
+}
+
+
+.app-section_top {
+    padding: 50px 150px;
+    text-align: center;
+    position: relative;
+}
+
+.app-section_top::after {
+    content: " ";
+    position: absolute;
+    right: 0;
+    top: -170px;
+    width: 300px;
+    height: 559px;
+    background: url(../img/download-app/v2/1Free_Eng.png) 50% 50% no-repeat;
+    background-size: 100%;
+    z-index: 10;
+    -webkit-animation:balloon 8s ease-in-out infinite;
+    -moz-animation:balloon 8s ease-in-out infinite;
+    -o-animation:balloon 8s ease-in-out infinite;
+    animation:balloon 8s ease-in-out infinite;
+}
+
+.new-app-page--es .app-section_top::after{
+    background: url(../img/download-app/v2/1Free_Spa.png) 50% 50% no-repeat;
+    background-size: 100%;
+}
+
+/* country specify */
+.en-ES .app-section_top::after {
+     background-image: url(../img/download-app/v2/1Free_euro.png);
+}
+.es-ES .app-section_top::after {
+     background-image: url(../img/download-app/v2/1Free_euro_Spa.png);
+}
+
+.en-HK .app-section_top::after {
+    background-image: url(../img/download-app/v2/1Free_hk-1x.png);
+}
+
+.en-GB .app-section_top::after {
+    background-image: url(../img/download-app/v2/1Free_en-en-1x.png);
+}
+.es-GB .app-section_top::after {
+    background-image: url(../img/download-app/v2/1Free_en-es-1x.png);
+}
+.fr-CA .app-section_top::after {
+    background-image: url(../img/download-app/v2/1Free_ca-fr-1x.png);
+}
+
+.es-CA .app-section_top::after {
+     background-image: url(../img/download-app/v2/1Free_euro_Spa.png)
+}
+
+.en-DE .app-section_top::after {
+     background-image: url(../img/download-app/v2/1Free_euro.png);
+}
+.de-DE .app-section_top::after {
+     background-image: url(../img/download-app/v2/1Free_de-de-1x.png);
+}
+
+
+@media screen and (min-width: 768px) and (max-width:1180px){
+    .header-promo--app .app-headerblock--primary {
+        width: 48%;
+        padding-bottom: 15px;
+    }
+    .header-promo--app .app-headerblock--secondary {
+        width: 52%;
+        height:269px;        
+    }
+
+     .app-section_top::after {
+        width: 180px;
+        height: 351px;
+        top: -110px;
+    }
+
+    .header-promo--app .app-headerblock--primary h1,
+    .b_HomeApps  .app-footer h2{
+        font-size:22px;
+    }
+
+    .app-headerblock--primary .plate{
+        width: 57px;
+        height:57px;
+    }
+    .app-headerblock--primary .plate .i{
+        width: 33px;
+        height:33px;
+    }    
+}
+@media screen and (max-width: 767px) {
+    .app-section_top {
+        padding: 30px 30px;
+        text-align: center;
+        position: relative;
+    }
+    .app-section_top::after {
+        width: 180px;
+        height: 351px;
+        top: -450px;
+    }
+    .header-promo--app .app-headerblock--primary {
+        padding-right: 185px;
+    }
+    .header-promo--app{
+        position: static;
+        background: none;
+        padding:0;
+    }
+    .header-promo--app .app-headerblock--wrapper{
+        border-radius: 0;
+        background: #3e3d3e;
+    }
+    .header-promo--app .app-headerblock--primary {
+        float: none;        
+        width: 100%;
+    }
+
+    .header-promo--app .app-headerblock--primary h1,
+    .b_HomeApps .app-footer h2{
+        font-size:24px;
+    }
+
+    .b_HomeApps  .app-footer{
+        padding: 35px 30px 30px
+    }
+
+    .header-promo--app .app-headerblock--secondary{
+        height: 300px;
+        left: 0;
+        padding: 30px;
+        position: absolute;
+        top: -420px;
+        width: 100%;        
+    }
+
+    .b_HomeApps .mediablock--secondary{
+        text-align: center;
+    }
+    .b_HomeApps .mediablock--secondary .footer-nav {
+        text-align: left;
+    }
+    .b_HomeApps .app--get-it-now{
+        margin: 20px;
+    }
+}
+@media screen and (max-width: 620px) {
+    .header-promo--app .app-headerblock--secondary {
+        top: -330px;        
+    }
+
+    .app-section_top::after {
+        top: -365px;
+    }
+}
+@media screen and (max-width: 480px) {
+    .app-section_top::after {        
+        top: -485px;
+    }
+
+    .header-promo--app .app-headerblock--secondary{
+        height: 200px;
+        left: 0;
+        padding: 30px;
+        position: absolute;
+        top: -250px;
+        width: 100%;        
+    }
+}
+@media screen and (max-width: 370px) {
+    .header-promo--app .app-headerblock--secondary{        
+        top: -220px;        
+    }
+}
+
+/* BAllOON 0*/
+@-webkit-keyframes balloon {
+  0%,100%{ -webkit-transform:translate(0, -10px) rotate(6eg);}
+  50%{ -webkit-transform:translate(-20px, 30px) rotate(-5deg); }
+}
+@-moz-keyframes balloon {
+ 0%,100%{ -moz-transform:translate(0, -10px) rotate(6eg);}
+  50%{ -moz-transform:translate(-20px, 30px) rotate(-5deg); }
+}
+@-o-keyframes balloon {
+ 0%,100%{ -o-transform:translate(0, -10px) rotate(6eg);}
+  50%{ -o-transform:translate(-20px, 30px) rotate(-5deg); }
+}
+@keyframes balloon {
+ 0%,100%{ transform:translate(0, -10px) rotate(6eg);}
+  50%{ transform:translate(-20px, 30px) rotate(-5deg); }
+}
+
+.b_HomeApps .app-icon{
+    width: 56px;    
+}
+
+.b_HomeApps .app-icon + h3 {
+    margin: 10px 0;
+}
+
+.b_HomeApps .allpage--footer{
+    margin: 0;
+}
+.b_HomeApps #rates .mediablock--primary img{
+    margin-bottom: -15px;
+}
+
+/*App Page end*/
+
+.b_ServicesMoneyTransfer .ui-autocomplete {
+    z-index: 1160;
+}
+
+.island.island-sm-white .transferRateArea.transferRateArea-exchange-rate {
+    margin: 0;
+    padding: 10px 0 5px;
+    background: none;
+}
+
+.island.island-sm-white .transferRateArea.transferRateArea-banner {
+    background: transparent;
+    border-radius: 5px;
+    text-align: center;
+    margin: 0;
+    padding: 0;
+}
+
+.island.island-sm-white .transferRateArea.transferRateArea-banner-desktop {
+    background: none;
+    padding-top: 0;
+}
+
+.island.island-sm-white .transferRateArea.transferRateArea-banner-desktop img {
+    border-radius: 5px;
+    text-align: center;
+    margin: 0 auto 10px;
+    padding: 0;
+}
+
+.country-selector .form-group,
+.info .form-group {
+    margin-bottom: 0;
+}
+
+.amount-selector {
+    position: relative;
+}
+
+.amount-selector--from #SendingCurr {
+    position: absolute;
+    top: -6px;
+    right: 0;
+}
+
+.amount-selector--to #CurrencySelector {
+    position: absolute;
+    top: -2px;
+    right: 16px;
+}
+
+@media screen and (min-width: 768px) {
+    .amount-selector--from #SendingCurr {
+        top: 8px;
+    }
+
+    .amount-selector--to #CurrencySelector {
+        top: 12px;
+    }
+
+    .island--title-popover-icon-link .i {
+        width: 24px;
+        height: 24px;
+        color: #fff;
+    }
+}
+
+.island.island-sm-white .transferRateArea-partners {
+    margin: 0 auto 15px;
+    padding: 0;
+    background: #fff;
+    border-radius: 5px;
+    text-align: center;    
+    overflow: hidden;
+}
+
+.island.island-sm-white .transferRateArea-partners .transferRateArea-locations--header {
+    padding: 10px;
+    border: rgba(0,0,0,.3) solid 1px;
+    border-bottom: 0;
+    background: #557A9B;
+    background-origin: border-box;
+    border-radius: 5px 5px 0 0;
+}
+
+.island.island-sm-white .transferRateArea-partners .transferRateArea-locations--header h3 {
+    color: #fff;
+    margin: 0;
+    padding: 0;
+    font-size: 16px;
+}
+
+.island.island-sm-white .transferRateArea-partners .transferRateArea-locations--content {
+    padding: 10px 30px;
+    background: #fff;
+    background-origin: border-box;
+    border: rgba(0,0,0,.3) solid 1px;
+    border-top: 0;
+    border-bottom: 0;
+}
+
+.island.island-sm-white .transferRateArea-partners .transferRateArea-locations--content table {
+    padding: 0;
+    margin: 0;
+}
+
+.island.island-sm-white .transferRateArea-partners .transferRateArea-locations--content tr {
+    border: none;
+}
+
+.island.island-sm-white .transferRateArea-partners .transferRateArea-locations--content td {
+    border: none;
+    width: 50%;
+    padding: 5px 10px;
+    margin: 0;
+}
+
+.island.island-sm-white .transferRateArea-partners .transferRateArea-locations--footer {
+    padding: 10px;
+    background: #E1E9F2;
+    color: #000;
+    font-size: 14px;
+    font-weight: 400;
+    background-origin: border-box;
+    border: rgba(0,0,0,.3) solid 1px;
+    border-top: 0;
+    border-radius: 0 0 5px 5px;
+}
+
+.island.island-sm-white .transferRateArea-partners-short .transferRateArea-locations--footer {
+    border-radius: 5px;
+    border-top: rgba(0,0,0,.3) solid 1px;
+}
+
+@media screen and (min-width: 768px) {
+    .island.island-sm-white .transferRateArea-partners .transferRateArea-locations--header,
+    .island.island-sm-white .transferRateArea-partners .transferRateArea-locations--content,
+    .island.island-sm-white .transferRateArea-partners .transferRateArea-locations--footer {
+        border-color: transparent;
+    }
+}
+
+.island.island-sm-white .transferRateArea-partners .transferRateArea-locations--footer a {
+    color: #006CD8;
+    font-weight: 800;
+}
+
+@media screen and (max-width: 767px) {
+    .island.island-sm-white .banner-container .transferRateArea,
+    .island.island-sm-white .banner-ads-container .transferRateArea {
+        margin: 10px -15px 10px;
+    }
+
+    .island.island-sm-white .banner-container .mt-banner__img,
+    .island.island-sm-white .banner-ads-container .mt-banner__img {
+        border-radius: 5px;
+        border: rgba(0,0,0,.3) solid 1px;
+        background-color: #fff;
+        background-image: linear-gradient( to bottom, #9C0004, #9C0004);
+        background-size: 100% 37px;
+        background-repeat: no-repeat;
+        background-origin: border-box;
+    }
+    
+    .island.island-sm-white #banner-partners .transferRateArea-partners {
+        width: inherit;
+        background: transparent;
+        margin: 0 auto 15px;
+    }
+
+    .b-amount-selector .country-selector {
+        padding-top: 0;
+    }
+
+    .b_ServicesMoneyTransfer .island.island-sm-white .island--header,
+    .b_MoneyTransferPaymentLocations .island.island-sm-white .island--header  {
+        background: #fff;
+        padding: 20px 20px 10px;
+        margin-top: -40px;
+    }
+
+    .b_MoneyTransferPaymentLocations .island.island-sm-white .island--header {
+        margin-top: -28px;
+    }
+
+    .b_ServicesMoneyTransfer .island.island-sm-white .island--header .island--title,
+    .b_MoneyTransferPaymentLocations .island.island-sm-white .island--header .island--title {
+        color: #720000;
+        padding-top: 0;
+        padding-bottom: 0;
+    }
+
+    .mt-payment-locations .mt-payment-location {
+        color: #4e4b49;
+    }
+}
+
+@media (min-width: 640px) and (max-width: 767px) {
+    .island.island-sm-white #banner-partners .transferRateArea-partners {
+        margin: 0 15px 15px;
+    }
+
+    .mt-payment-locations .mt-payment-location {
+        color: #fff;
+    }
+}
+
+.mt-payment-locations {
+    margin: 15px 0;
+}
+
+.mt-payment-locations .mt-payment-location {
+    padding-left: 15px;
+    font-weight: bold;
+    font-size: 16px;
+    line-height: 24px;
+}
+
+.b_MoneyTransferPaymentLocations .cpLocation:hover,
+.blockMsgPayers .cpLocation:hover {
+    cursor: default;
+}
+
+.b_MoneyTransferPaymentLocations .cpLocation .cplocation--table th.cpLocation--table-trans-limit,
+.b_MoneyTransferPaymentLocations .cpLocation.pickup-table table th:last-child,
+.b_MoneyTransferPaymentLocations .cpLocation .cplocation--table td.cpLocation--table-phone,
+.blockMsgPayers .cpLocation .cplocation--table th.cpLocation--table-trans-limit,
+.blockMsgPayers .cpLocation.pickup-table table th:last-child,
+.blockMsgPayers .cpLocation .cplocation--table td.cpLocation--table-phone {
+    text-align: right;
+}
+
+.b_MoneyTransferPaymentLocations #cashPickupLocationSearchResults .cpLocation:after,
+.blockMsgPayers #cashPickupLocationSearchResults .cpLocation:after {
+    display: none;
+}
+
+.b_MoneyTransferPaymentLocations .cpLocation .cplocation--table td:first-child,
+.b_MoneyTransferPaymentLocations .cpLocation .cplocation--table td:last-child,
+.blockMsgPayers .cpLocation .cplocation--table td:first-child,
+.blockMsgPayers .cpLocation .cplocation--table td:last-child {
+    padding-left: 10px;
+    padding-right: 10px;
+}
+
+@media screen and (max-width: 640px) {
+    .b_MoneyTransferPaymentLocations .cpLocation,
+    .blockMsgPayers .cpLocation {
+        margin: 0;
+        padding-right: 0;
+        padding-left: 0;
+    }
+
+    .b_MoneyTransferPaymentLocations .cpLocation .cplocation--table th.cpLocation--table-trans-limit,
+    .b_MoneyTransferPaymentLocations .cpLocation.pickup-table table th:last-child,
+    .b_MoneyTransferPaymentLocations .cpLocation .cplocation--table td.cpLocation--table-phone,
+    .blockMsgPayers .cpLocation .cplocation--table th.cpLocation--table-trans-limit,
+    .blockMsgPayers .cpLocation.pickup-table table th:last-child,
+    .blockMsgPayers .cpLocation .cplocation--table td.cpLocation--table-phone {
+        text-align: left;
+    }
+
+    .b_MoneyTransferPaymentLocations .cpLocation .cplocation--table td:first-child,
+    .b_MoneyTransferPaymentLocations .cpLocation .cplocation--table td:last-child,
+    .blockMsgPayers .cpLocation .cplocation--table td:first-child,
+    .blockMsgPayers .cpLocation .cplocation--table td:last-child {
+        padding-left: 0;
+        padding-right: 0;
+    }
+
+    .b_MoneyTransferPaymentLocations #divCashPickupSearchRefine .control-label,
+    .blockMsgPayers #divCashPickupSearchRefine .control-label {
+        white-space: nowrap;
+    }
+
+    .b_MoneyTransferPaymentLocations #cashPickupShowMore,
+    .blockMsgPayers #cashPickupShowMore {
+        margin-left: 0;
+    }
+}
+
+.prepopulated {
+    animation: highlight 6s ease;
+}
+
+@keyframes highlight {
+  0% {
+    color: red;
+  }
+  100% {
+    color: black;
+  }
+}
+
+/* MoneyTransfer popup for payment locations */
+.blockMsgPayers { 
+    top: 3% !important;
+    left: 15% !important; 
+    width: 70% !important;
+    height: 94% !important; 
+    z-index: 1011!important;
+    overflow-y: auto !important;
+    border: none !important; 
+    -webkit-scrollbar: vertical;
+    border-radius: 5px;
+}
+
+.blockMsgPayers .p_header {
+    padding: 10px 15px;
+    position: relative;
+}
+
+.blockMsgPayers .p_header .p_close {
+    font-family: Arial,"Helvetica Neue",Helvetica,sans-serif;
+    position: absolute;
+    top: 15px;
+    right: 15px;
+    z-index: 111;
+}
+
+.blockMsgPayers .p_body .p_close  {
+    min-width: 120px;
+    margin-bottom: 25px;
+}
+
+.blockMsgPayers .p_body {
+    text-align: left;
+}
+
+.blockMsgPayers .p_body .island {
+    background: none;
+}
+
+.blockMsgPayers .p_body .island--header {
+    padding: 0;
+    margin: 0 0 15px 0;
+}
+
+.blockMsgPayers .p_body .island--title {
+    color: #000;
+    margin: 0;
+    padding: 0;
+    font-size: 24px;
+}
+
+.blockMsgPayers .p_body .mt-payment-locations-note {
+    padding-top: 15px;
+}
+
+.blockMsgPayers .p_body .ajax-loader {
+    text-align: center; 
+    padding: 0!important; 
+    display: none;
+}
+
+@media screen and (min-width: 992px) {
+    .blockMsgPayers .container {
+        width: 100%!important;
+    }
+}
+
+@media screen and (min-width: 768px) {
+    .blockMsgPayers .container {
+        width: 100%!important;
+    }
+}
+
+@media screen and (min-width: 640px) {
+    .blockMsgPayers .container {
+        width: 100%!important;
+    }
+}
+
+@media screen and (max-width: 992px) {
+    .blockMsgPayers { 
+        top: 3% !important;
+        left: 3% !important; 
+        width: 94% !important;
+        height: 94% !important; 
+    }
+}
+
+@media screen and (max-width: 640px) {
+    .blockMsgPayers { 
+        top: 0!important;
+        left: 0!important; 
+        width: 100%!important;
+        height: 100%!important;
+        border-radius: 0;
+    }
+
+    .blockMsgPayers .p_body {
+        padding-bottom: 50px;
+    }
+
+    .blockMsgPayers .p_body .forms-default {
+        padding-left: 0;
+        padding-right: 0;
+    }
+}
+
+
+/* Homepage hotfix */
+
+.panel-light {
+    background: #90eb87;
+    color: #333;
+}
+
+ .panel-light h3 {
+    color: #000000;
+}
+
+.panel-light a {
+    color: #006CD8;
+}
+
+.delivery-method-bank .description .popover {
+    width: 320px;
+    max-width: 90%;
+}
+
+.delivery-method-bank .description .popover-title.popover-title.popover-title {
+    font-weight: 700;
+    color: #000;
+    margin: 0;
+    text-transform: none;
+}
+
+.delivery-method-bank .description .popover .popover-content,
+.delivery-method-bank .description .popover .popover-content p {
+    font-size: 13px;
+    line-height: 18px;
+    text-align: justify;
+}
+
+.delivery-method-bank .description .arrow.arrow.arrow {
+    top: -11px !important;
+}
+
+.delivery-method-bank .description .popover.bottom > .arrow::after {
+    border-bottom-color: #f7f7f7;
+}
+
+
+/*homepage app-version*/
+.app-version {
+  background: linear-gradient(to bottom, #fff 0%, #fff 58%, #cccbca 100%);
+}
+.app-version .layout--primary{
+    background: url(../img/download-app/v2/homepage.jpg) 100% 0 no-repeat;
+    padding-right: 40%;
+    position: relative;
+}
+
+.app-version .layout-custom2-txt1:before {
+    content: " ";
+    position: absolute;
+    right: 10px;
+    top: 1000px;
+    width: 150px;
+    height: 280px;
+    background: url(../img/download-app/v2/1Free_Eng.png) 50% 50% no-repeat;
+    background-size: 100%;
+    z-index: 10;    
+    animation: flyUp 1.5s 5s forwards, balloon 8s ease-in-out infinite;
+    
+}
+.es-US .app-version .layout-custom2-txt1:before {
+    background-image: url(../img/download-app/v2/1Free_Spa.png);
+}
+
+.en-HK .app-version .layout-custom2-txt1:before {
+    background-image: url(../img/download-app/v2/1Free_hk-1x.png);
+}
+
+.en-ES .app-version .layout-custom2-txt1:before {
+    background-image: url(../img/download-app/v2/1Free_es-en-1x.png);
+}
+
+.es-ES .app-version .layout-custom2-txt1:before {
+    background-image: url(../img/download-app/v2/1Free_es-es-1x.png);
+}
+
+.en-GB .app-version .layout-custom2-txt1:before {
+    background-image: url(../img/download-app/v2/1Free_en-en-1x.png);
+}
+
+.es-GB .app-version .layout-custom2-txt1:before {
+    background-image: url(../img/download-app/v2/1Free_en-es-1x.png);
+}
+
+.app-version .collage2--primary {
+    text-align: left;
+}
+.app-version .layout--primary {
+    padding-left: 0;
+}
+.app-version .layout--primary .notice {
+    position: absolute;
+    bottom: 20px;
+    left: 0;
+    color: #666;
+    font-size: 10px;
+}
+
+.app-version .layout--primary .download--block {
+    font-weight: bold;
+    color: #000;
+    text-align: left;
+    padding-top: 70px;
+}
+.frame0,
+.frame1,
+.frame2,
+.frame3,
+.frame4,
+.frame5{
+    opacity: 0;            
+    transition: all;
+    animation: showme 1s forwards;
+}
+
+.frame0, .frame1, .frame2, .frame3 {
+    color: #e11f25;
+    font-size: 42px;
+}
+.frame4{
+    color: #000;
+    font-size: 42px;
+}
+.frame0{
+    animation-delay: 1s;
+}
+.frame1{
+    animation-delay: 2s;
+}
+.frame2{
+    animation-delay: 3s;
+}
+
+.frame3{
+    animation-delay: 4s;
+}
+.frame4, .frame5 {
+    animation-delay: 5s;
+}
+@keyframes showme {    
+    100% {opacity:1;}
+}
+
+@keyframes flyUp {    
+    100% {top:10px;}
+}
+
+@media (max-width: 1200px){    
+     .app-version  .layout--primary{
+        backgound-size: 80%;
+    }
+    .frame0, .frame1, .frame2, .frame3, .frame4 {    
+        font-size: 26px;        
+    }
+    .app-version .layout--primary {
+        padding-right: 44%;
+    }
+    .app-version .layout--primary .download--block{
+       padding: 30px 0 10px;      
+   }
+}
+
+@media (max-width:980px) {
+    .app-version .layout-custom2-txt1:before {
+        display: none;
+    }
+    .frame0, .frame1, .frame2, .frame3, .frame4 {    
+        font-size: 20px;        
+    }
+
+    .app-version .collage2--primary img{
+        text-align: center;
+        margin: auto;
+    }
+   .app-version .layout--primary {
+        padding: 0 0 0 20px;
+        background: #f5f5f5;     
+    }
+    .layout-custom2-txt1 {
+        text-align: center;
+        margin: -30px auto 20px;
+        line-height: 70%;
+    }
+   .app-version .layout--primary .download--block{
+       padding: 0 0 10px;
+       text-align:center;
+   }
+    .app-version .layout--primary .notice {
+        position: static;
+        padding: 10px;
+        text-align: center;
+        font-size: 10px;
+    }
+}
+@media (max-width:670px) {
+    .app-version .layout--primary {
+        padding: 0;    
+    }
+   .app-version .collage2--primary img{
+        margin: 0 -20px;
+    }
+}
+
+.homepage_promo .homepage_promo_inner {min-height: 10px; margin-top: 0;}
+/*end homepage app-version*/
+
+.popover .close {
+    display: block;
+    float: none;
+    margin: 5px auto;
+    color: #84c2ff;
+    font-size: 14px;
+    line-height: 18px;
+    font-weight: normal;
+    opacity: 1;
+    text-align: center;
+}
+
+.popover .close:hover,
+.popover .close:focus {
+    color: #add6ff;
+}
+
+.popover .close svg {
+    height: 10px;
+    width: 10px;
+    vertical-align: baseline;
+}
+
+
+.popover .close strong {
+    font-weight: normal;
+}
+
+
+.b_ServicesMoneyTransfer .header-promo {
+    margin-top: -60px;
+}
+.b_ServicesMoneyTransfer .header-promo .header-promo--mt h1 {
+    margin-bottom: 60px;
+}
+@media (max-width: 1024px) {
+    
+     .b_ServicesMoneyTransfer .island--header {
+        padding-top: 0;
+    }
+
+
+}
+
+.footer-promo--title small {
+    display: block;
+    text-transform: none;
+}
+
+
+/* BOSSDTC-3954 join page */
+.login_area-form-container.login_area-form-container {
+    padding: 0 15px;
+    font-size: 16px;
+}
+
+.i-va-textbottom {
+    vertical-align: text-bottom;
+}
+
+.login_area .tabs {
+    padding-left: 5px;
+    padding-right: 5px;
+    max-width: 566px;
+}
+
+.notice.control-label-placeholder {
+    margin-top: 10px;
+}
+
+@media (min-width: 1200px) {
+    .notice.control-label-placeholder {
+        margin-top: 40px;
+    }
+}
+
+@media (min-width: 768px) {
+    .island-bottom-rounded {
+        border-radius: 0 0 8px 8px;
+    }
+}
+
+.mobilenav-panel{
+    z-index: 5;
+}
+.notice{
+    word-break: break-word;
+}
+
+@media screen and (max-width: 640px)
+{
+    .b_MoneyTransferReceipt .island.island-sm-white .island--header {
+        padding: 40px 20px 10px 20px !important;
+    }
+}
+
+/**/
+.app-banner-area {
+ overflow: hidden;   
+}
+
+.app-banner-area .app-icon {
+    font-size: 18px;
+    padding:12px 0 0 100px;
+    position: relative;
+    min-height:90px;
+}
+.app-banner-area .free_msg {
+    text-align: center;
+}
+.app-banner-area .btn_area {
+    text-align: center;
+}
+.app-banner-area .btn_area .btn {
+    min-width: inherit;
+}
+
+.app-banner-area .app-icon:before {
+    border-radius: 8px;
+    content:" ";
+    width: 80px;
+    height: 80px;
+    display: inline-block;        
+    background: url(../img/download-app/v2/app-logo.png) 0 0 no-repeat;
+    background-size: 80px;
+    position: absolute;
+    top: 0;
+    left: 0;
+}
+@media (min-width: 1000px) and (max-width: 1200px){
+    .es-US .app-banner-area .app-icon {
+        padding-top: 0;
+    }
+}
+
+@media (min-width: 768px) {
+    .app-banner-area .btn_area{
+        padding-top: 16px;
+    }
+    .app-banner-area .btn_area .btn + .btn {
+        margin-left: 0;
+    }
+}
+@media (max-width: 640px) {
+    #app-banner {
+        border: solid 1px #B2B2B2;
+        border-radius: 4px;
+        padding: 15px;    
+    }
+    .app-banner-area .app-icon{
+       color: #9C0004;
+       min-height:100px;
+    }
+    .app-banner-area .free_msg {
+        color: #000;
+    }  
+}
+
+@media (max-width: 414px) {
+    .app-banner-area .app-icon {
+        font-size: 16px;
+        padding:6px 0 0 100px;
+    }
+    .app-banner-area .app-icon br {
+        display: none;
+    }
+}
+
+@media (max-width: 350px) {
+     .app-banner-area .app-icon {
+        font-size: 15px;
+        padding:6px 0 0 100px;
+    }
+}
+
+@media (min-width: 370px) and (max-width: 480px) {
+    .android .free_msg,
+    .ios .free_msg{
+        float: left;
+        line-height: 40px;
+        padding-right:20px;
+        margin: 0 -10px;
+    }
+}
+
+
+.b_ServicesMoneyTransfer .header-promo .header-promo--mt {
+    background-image: url(../img/money-transfer/mt-services-v2.png);
+    background-size: 427px;
+    background-position: center 180px;
+    max-width: 570px;
+    padding: 15px 20px;
+}
+.b_ServicesMoneyTransfer .header-promo .header-promo--mt .btn {
+    min-width: auto;    
+}
+.b_ServicesMoneyTransfer .header-promo .header-promo--mt .btn + .btn {
+    margin-right: 0;
+}
+
+.b_ServicesMoneyTransfer .mt-header-block {
+    padding: 10px 0;
+}
+.b_ServicesMoneyTransfer .mt-header-block h2 {
+    color: #039d32;
+    text-align: left;
+    font-size: 24px;
+    padding-bottom: 230px;
+}
+.b_ServicesMoneyTransfer .mt-header-block h2 span {
+    color: #d81f26;
+}
+
+.mt_f {display: flex;}
+.mt_f1 {flex-grow: 1; font-weight: bold; font-size: 12px; text-align: left; margin-top: auto; padding-bottom: 7px;}
+.mt_f2 {flex-grow: 2; flex-basis: 283px;  margin-top: auto; min-width: 293px;}
+.mt_f2 .notice {font-size: 8px;}
+
+@media (max-width: 1024px) {
+    
+     .b_ServicesMoneyTransfer .mt-header-block h2 {
+        padding-bottom: 150px;
+    }
+    .b_ServicesMoneyTransfer .header-promo .header-promo--mt {
+        background-image: url(../img/money-transfer/mt-services-v2.png);
+        background-size: 60%;
+        background-position: center 180px;
+        max-width: 570px;
+        padding: 15px 20px;
+    }
+
+}
+@media (min-width: 920px) {
+   .b_CountriesMoneyTransfer .mt-banner__img {
+        margin-top: 20px;
+    }
+
+   .b_CountriesMoneyTransfer .mt-banner__img img {
+        width: 100%;
+    }
+
+    .b_CountriesMoneyTransfer .b-amount-selector .social-promo .social-promo--block .spec-offer-mt {
+        min-height: 1px;
+        font-size: 1px;
+        padding: 6px 0;
+    }
+}
+
+@media (min-width: 640px) AND (max-width: 1000px) {
+    .b_CountriesMoneyTransfer .island.island-sm-white .banner-container .transferRateArea {
+        margin: 20px auto;        
+    }
+    .b_CountriesMoneyTransfer .island.island-sm-white .banner-container .mt-banner__img{
+        display: inline-block;
+    }
+}
+
+
+
+/*mobile wallet fix*/
+@media (min-width: 540px) AND (min-height:450px){
+    #faq_top,
+    #faq_top + p,
+    #faq_top + p + p,
+    #faq_top + p + p + hr,
+    #faq1 a, #faq2 a, #faq3 a, 
+    #faq1 br, #faq2 br, #faq3 br
+    {
+        display: none;
+    }
+}
+
+#cashPickupLocationSearchResults {
+    padding: 0 10px;
+}
+
+
+.payer-locations {
+    position: absolute;
+    top: 0;
+    right: 0;    
+    font-size: 16px;
+    background: #fff;
+    color: #006cd8;
+    padding: 3px 15px 3px 10px;
+    border-top-right-radius: 8px;
+    line-height:28px;
+}
+.payer-locations a:after {
+    position: absolute;
+    top: 0;
+    left: -10px;
+    content:'';
+    width: 0;
+    height: 0;
+    border-style: solid;
+    border-width: 0 10px 34px 0;
+    border-color: transparent #fff transparent;
+}
+
+@media screen and (max-width: 768px) {
+    .payer-locations {
+        border-radius: 0;
+        background: #F7F7F7;
+    }
+    .payer-locations a:after {
+        border-color: transparent #F7F7F7 transparent
+    }
+    #DeliveryMethods .island--title+section.forms-gray {
+        padding-top: 30px;
+    }
+}
+
+.payer-locations a {
+    color: #006cd8;
+}
+#get-started.forms-gray .forms-gray {
+    padding-top: 0;
+    padding-bottom: 30px;
+}
+
+#get-started .no-margin--top {
+    margin-top: 0;
+}
+
+.offer-banner {text-align: center; color: #000; }
+.offer-banner--content{background: #fff; border-bottom-left-radius: 8px; border-bottom-right-radius: 8px; padding:5px 10px 10px 10px;}
+.offer-banner h3{background: #9C0004; color:#fff; border-top-right-radius: 8px; border-top-left-radius: 8px; text-align: center; margin: 0; padding: 10px; font-size:16px;}
+.offer-banner strong{ font-size:28px;}
+.offer-banner p{margin: 5px 0; font-weight: normal; font-size:15px;}
+.offer-banner .red{color: #9C0004; font-weight: bold;}
+
+.b_ServicesMoneyTransfer .transferRateArea,
+.b_MoneyTransferStartOrder .transferRateArea,
+.b_MoneyTransferIndex .transferRateArea{margin: 0;}
+
+@media screen and (max-width: 1024px) {
+    .banner-ads-container {
+        margin: 15px 0px;
+    }
+}
+
+@media screen and (max-width: 768px) {
+    .offer-banner {text-align: center; color: #000; border: 1px solid #b2b2b2; border-radius: 4px; }
+    .offer-banner--content{background: #fff; border-bottom-left-radius: 4px; border-bottom-right-radius: 4px; padding:5px 10px 10px 10px;}
+    .island.island-sm-white .offer-banner  h3{background: #9C0004; color:#fff; border-top-right-radius: 4px; border-top-left-radius: 4px; text-align: center; margin: 0; padding: 10px; font-size:16px;}
+    .offer-banner strong{ font-size:20px;}
+    .offer-banner p{margin: 5px 0; font-weight: normal; font-size:16px;}
+    .offer-banner .red{color: #9C0004; font-weight: bold;}
+}
+
+.allpage--body .container .allpage--body .container{
+    padding: 0;
+    width: auto;
+}
+
+#footer-nav-products{
+    min-height: 170px;
+}
+#footer-legal-content .navbar-nav.navbar-right{
+    margin-right: -15px;
+}
+
+.footer-main .raf-disabled .mediablock--secondary{
+    width: 100%;
+    text-align: right;
+    margin-top: -77px;
+}
+
+.recipientNamePopup h4{
+    padding-top: 20px;
+}
+
+.recipientNamePopup .modal-footer {
+    display: flex;
+}
+.recipientNamePopup .modal-footer button { flex-grow: 1;}
+
+
+.special-offer--label,
+.special-fee--label {    
+    font-weight: normal;
+}
+
+.ref-no.popup {
+    line-height:1;
+}
+.ref-no.popup svg{
+    width: 16px;
+    height: 16px;
+    vertical-align: baseline;    
+}
+
+.white-block--ccv{
+    margin-bottom:15px;
+ 
+}
+.white-block--ccv .white-block--content {
+    padding-bottom: 9px;
+}
+
+.confirm-page .confirmation .cvv .help-block {
+    font-size: 16px;
+    width: auto;
+}
+
+/* bossdtc-4395 */
+.color-warning {
+    color: yellow;
+}
+.experation-area .color-warning{
+    font-size: 18px;
+    margin-right:10px;
+}
+
+@media (max-width: 768px) {   
+    .island-sm-white a.btn {
+        color: #fff;
+    }
+    .island-sm-white .color-warning {
+        color: orange;
+    }
+}
+
+.cc-display {}
+.cc-display .card-area {flex-grow:1; flex-basis:280px;}
+.cc-display .experation-area {flex-grow:2; padding-bottom: 10px;}
+@media (max-width: 640px) {
+    .cc-display .flex-alignment .card-area img {float: none; display: block;}
+    .cc-display .flex-alignment{flex-direction: column;  -ms-flex-direction: column; display: block;}
+    .cc-display .card-area {flex-grow:0; flex-basis:0; }
+    .cc-display .action-area {clear: both;}
+}
+/* end-bossdtc-4395 */
